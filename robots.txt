@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://prajapatkedarmal143-gif.github.io/ward-shikayat/sitemap.xml

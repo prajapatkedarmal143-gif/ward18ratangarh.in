@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>वार्ड शिकायत सेवा | वार्ड नं. 18 रतनगढ़ | ऑनलाइन शिकायत</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"Noto Sans Devanagari",sans-serif;background:#f5f7fb;color:#172033}
+header{background:linear-gradient(135deg,#0b5ed7,#174ea6);color:white;padding:28px 16px;text-align:center}
+header h1{margin:0;font-size:28px} header p{margin:7px 0 0;opacity:.92}
+nav{background:#fff;position:sticky;top:0;z-index:5;display:flex;justify-content:center;gap:8px;padding:10px;box-shadow:0 2px 12px #0001}
+nav button{border:0;background:#eef4ff;color:#174ea6;padding:10px 14px;border-radius:10px;font-weight:700;cursor:pointer}
+.container{max-width:1050px;margin:22px auto;padding:0 14px}.hero{background:white;border-radius:18px;padding:28px;box-shadow:0 4px 20px #0000000d;text-align:center}
+.hero h2{margin:0 0 10px;font-size:25px}.hero p{color:#5d6677}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}.card{background:#fff;padding:20px;border-radius:16px;box-shadow:0 3px 16px #0000000b}.card h3{margin:8px 0}.icon{font-size:30px}
+.panel{display:none}.panel.active{display:block}.form{background:#fff;padding:22px;border-radius:16px;box-shadow:0 3px 16px #0000000b;max-width:760px;margin:auto}
+label{display:block;font-weight:700;margin:13px 0 6px}input,select,textarea{width:100%;padding:12px;border:1px solid #d7ddea;border-radius:10px;font-size:15px}textarea{min-height:110px;resize:vertical}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:14px}.btn{border:0;border-radius:10px;padding:13px 18px;background:#0b5ed7;color:#fff;font-weight:800;cursor:pointer;margin-top:16px}.btn.secondary{background:#e9eef7;color:#20304d}
+.notice{padding:13px;border-radius:10px;margin-top:14px;background:#eaf4ff}.success{background:#eaf8ee;color:#176b32}.error{background:#fff0f0;color:#a51d2d}
+.status{padding:5px 9px;border-radius:999px;font-size:12px;font-weight:800;background:#fff3cd;color:#795b00}.solved{background:#dff6e5;color:#176b32}.progress{background:#e1efff;color:#1359a8}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:18px 0}.stat{background:#fff;border-radius:14px;padding:18px;text-align:center}.stat b{display:block;font-size:27px}
+.item{background:#fff;border-radius:14px;padding:16px;margin:10px 0;border-left:5px solid #0b5ed7}.item small{color:#697386}.item p{margin:8px 0}
+footer{text-align:center;color:#687386;padding:30px 10px}
+@media(max-width:700px){.grid,.stats,.row{grid-template-columns:1fr}header h1{font-size:23px}.hero{padding:22px}}
+.admin-item:hover{box-shadow:0 6px 24px #00000012}
+</style>
+
+<meta name="description" content="वार्ड शिकायत सेवा — वार्ड नं. 18 रतनगढ़ में सड़क, नाली, पानी, सफाई, स्ट्रीट लाइट और अन्य समस्याओं की ऑनलाइन शिकायत दर्ज करें और शिकायत की स्थिति देखें।">
+<meta name="keywords" content="वार्ड 18 रतनगढ़ शिकायत, रतनगढ़ नगर पालिका शिकायत, Ratangarh Ward 18 complaint, online complaint Ratangarh">
+<meta name="robots" content="index, follow">
+<meta name="author" content="वार्ड शिकायत सेवा, वार्ड नं. 18 रतनगढ़">
+<meta property="og:title" content="वार्ड शिकायत सेवा | वार्ड नं. 18 रतनगढ़">
+<meta property="og:description" content="वार्ड नं. 18 रतनगढ़ की समस्याओं की ऑनलाइन शिकायत दर्ज करें और स्टेटस देखें।">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://YOUR-DOMAIN.example/">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebSite",
+  "name":"वार्ड शिकायत सेवा",
+  "description":"वार्ड नं. 18 रतनगढ़ की नागरिक समस्याओं के लिए ऑनलाइन शिकायत सेवा।",
+  "inLanguage":"hi-IN",
+  "url":"https://YOUR-DOMAIN.example/"
+}
+</script>
+
+</head>
+<body>
+<header>
+  <h1>वार्ड शिकायत सेवा</h1>
+  <p>वार्ड नं. 18, रतनगढ़ • पार्षद: श्रीमती विमला देवी जी</p>
+</header>
+<nav>
+  <button onclick="show('home')">🏠 होम</button>
+  <button onclick="show('complaint')">📝 शिकायत दर्ज करें</button>
+  <button onclick="show('track')">🔎 शिकायत देखें</button>
+  <button onclick="show('admin')">🔐 Admin</button>
+</nav>
+
+<main class="container">
+<section id="home" class="panel active">
+  <div class="hero">
+    <h2>आपकी समस्या, हमारी जिम्मेदारी</h2>
+    <p>वार्ड की सड़क, नाली, पानी, सफाई, स्ट्रीट लाइट या अन्य समस्या की शिकायत ऑनलाइन दर्ज करें।</p>
+    <button class="btn" onclick="show('complaint')">📝 शिकायत दर्ज करें</button>
+    <button class="btn secondary" onclick="show('track')">🔎 शिकायत की स्थिति देखें</button>
+  </div>
+  <div class="grid">
+    <div class="card"><div class="icon">📷</div><h3>फोटो के साथ शिकायत</h3><p>समस्या की फोटो लगाकर शिकायत को स्पष्ट करें।</p></div>
+    <div class="card"><div class="icon">🔢</div><h3>शिकायत नंबर</h3><p>हर शिकायत को अलग शिकायत नंबर मिलेगा।</p></div>
+    <div class="card"><div class="icon">📊</div><h3>स्टेटस ट्रैक करें</h3><p>Pending, कार्यवाही में या Solved स्थिति देखें।</p></div>
+  </div>
+</section>
+
+<section id="complaint" class="panel">
+  <div class="form">
+    <h2>📝 शिकायत दर्ज करें</h2>
+    <form id="complaintForm">
+      <div class="row">
+        <div><label>नाम *</label><input id="name" required placeholder="अपना नाम"></div>
+        <div><label>मोबाइल नंबर *</label><input id="phone" required inputmode="numeric" pattern="[0-9]{10}" placeholder="10 अंकों का मोबाइल"></div>
+      </div>
+      <label>समस्या की श्रेणी *</label>
+      <select id="category" required><option value="">चुनें</option><option>सड़क</option><option>नाली</option><option>पानी</option><option>सफाई</option><option>स्ट्रीट लाइट</option><option>बिजली</option><option>अतिक्रमण</option><option>अन्य</option></select>
+      <label>समस्या का स्थान *</label><input id="location" required placeholder="गली/मोहल्ला/स्थान">
+      <label>समस्या का विवरण *</label><textarea id="description" required placeholder="समस्या के बारे में विस्तार से लिखें"></textarea>
+      <label>समस्या की फोटो</label><input id="photo" type="file" accept="image/*">
+      <button class="btn" type="submit">शिकायत जमा करें</button>
+      <div id="formMsg"></div>
+    </form>
+  </div>
+</section>
+
+<section id="track" class="panel">
+  <div class="form">
+    <h2>🔎 शिकायत की स्थिति</h2>
+    <label>शिकायत नंबर</label><input id="trackId" placeholder="जैसे WS-20261007-001">
+    <button class="btn" onclick="trackComplaint()">स्थिति देखें</button>
+    <div id="trackResult"></div>
+  </div>
+</section>
+
+<section id="admin" class="panel">
+  <div class="form">
+    <h2>🔐 Admin Panel</h2>
+    <p>यह डेमो Admin Panel है। लाइव वेबसाइट में सुरक्षित सर्वर लॉगिन लगाना जरूरी होगा।</p>
+    <div class="row">
+      <input id="adminUser" placeholder="Username">
+      <input id="adminPass" type="password" placeholder="Password">
+    </div>
+    <button class="btn" onclick="adminLogin()">Login</button>
+    <div id="adminArea"></div>
+  </div>
+</section>
+</main>
+<footer>वार्ड नं. 18, रतनगढ़ • नागरिक शिकायत सेवा</footer>
+
+<script>
+const KEY='ward18_complaints';
+const getData=()=>JSON.parse(localStorage.getItem(KEY)||'[]');
+const saveData=x=>localStorage.setItem(KEY,JSON.stringify(x));
+function show(id){document.querySelectorAll('.panel').forEach(x=>x.classList.remove('active'));document.getElementById(id).classList.add('active');scrollTo({top:0,behavior:'smooth'})}
+function newId(){let d=new Date(), s=d.getFullYear()+String(d.getMonth()+1).padStart(2,'0')+String(d.getDate()).padStart(2,'0');let n=getData().length+1;return 'WS-'+s+'-'+String(n).padStart(3,'0')}
+document.getElementById('complaintForm').addEventListener('submit',async e=>{
+ e.preventDefault(); let photoFile=document.getElementById('photo').files[0], photo='';
+ if(photoFile){photo=await new Promise(r=>{let fr=new FileReader();fr.onload=()=>r(fr.result);fr.readAsDataURL(photoFile)})}
+ let c={id:newId(),name:name.value,phone:phone.value,category:category.value,location:location.value,description:description.value,photo,status:'Pending',date:new Date().toLocaleString('hi-IN')};
+ let a=getData();a.push(c);saveData(a);
+ document.getElementById('formMsg').innerHTML='<div class="notice success">✅ शिकायत दर्ज हो गई। आपका शिकायत नंबर <b>'+c.id+'</b> है। इसे संभालकर रखें।</div>';
+ e.target.reset();
+});
+function trackComplaint(){let id=trackId.value.trim().toUpperCase(), c=getData().find(x=>x.id===id);trackResult.innerHTML=c?'<div class="notice"><b>'+c.id+'</b><br>श्रेणी: '+c.category+'<br>स्थान: '+c.location+'<br>स्थिति: <span class="status '+(c.status==='Solved'?'solved':c.status==='In Progress'?'progress':'')+'">'+c.status+'</span><br>दर्ज तारीख: '+c.date+'</div>':'<div class="notice error">❌ शिकायत नंबर नहीं मिला।</div>'}
+function adminLogin(){if(adminUser.value==='admin'&&adminPass.value==='1234'){renderAdmin()}else adminArea.innerHTML='<div class="notice error">गलत Login. डेमो के लिए Username: admin, Password: 1234</div>'}
+function renderAdmin(){
+ let a=getData();
+ let html='<div class="stats"><div class="stat"><b>'+a.length+'</b>कुल</div><div class="stat"><b>'+a.filter(x=>x.status==='Pending').length+'</b>Pending</div><div class="stat"><b>'+a.filter(x=>x.status==='Solved').length+'</b>हल</div></div>';
+ html+='<label>🔎 शिकायत खोजें</label><input id="adminSearch" oninput="filterAdmin()" placeholder="शिकायत नंबर, नाम, मोबाइल या स्थान से खोजें">';
+ html+='<div id="adminList">'+(a.length?a.map((c,i)=>adminCard(c,i)).join(''):'<div class="notice">अभी कोई शिकायत दर्ज नहीं है।</div>')+'</div>';
+ adminArea.innerHTML=html;
+}
+function adminCard(c,i){
+ let safeDesc=(c.description||'').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+ let photo=c.photo?'<div style="margin-top:10px"><img src="'+c.photo+'" alt="समस्या की फोटो" style="width:100%;max-height:320px;object-fit:contain;border-radius:10px;border:1px solid #ddd;background:#f5f5f5"></div>':'<div class="notice">📷 फोटो उपलब्ध नहीं है</div>';
+ let phoneDigits=(c.phone||'').replace(/\D/g,'');
+ return '<div class="item admin-item" data-search="'+(c.id+' '+c.name+' '+c.phone+' '+c.location+' '+c.category).toLowerCase()+'">'+
+ '<div style="display:flex;justify-content:space-between;gap:8px;align-items:center"><b>शिकायत नंबर: '+c.id+'</b><span class="status '+(c.status==='Solved'?'solved':c.status==='In Progress'?'progress':'')+'">'+c.status+'</span></div>'+
+ '<p><b>👤 शिकायतकर्ता:</b> '+c.name+'<br><b>📞 मोबाइल:</b> '+c.phone+'<br><b>🏷️ श्रेणी:</b> '+c.category+'<br><b>📍 स्थान:</b> '+c.location+'<br><b>🕐 दर्ज तारीख/समय:</b> '+c.date+'</p>'+
+ '<div class="notice"><b>📝 समस्या का पूरा विवरण:</b><br>'+safeDesc+'</div>'+photo+
+ '<div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:8px">'+
+ '<a class="btn" style="text-decoration:none;padding:9px 12px" href="tel:'+phoneDigits+'">📞 कॉल करें</a>'+ 
+ (phoneDigits?'<a class="btn" style="text-decoration:none;padding:9px 12px;background:#198754" href="https://wa.me/91'+phoneDigits+'" target="_blank">💬 WhatsApp</a>':'')+
+ '<button class="btn" style="padding:9px 12px" onclick="setStatus('+i+',\'In Progress\')">🔄 कार्यवाही में</button>'+ 
+ '<button class="btn" style="padding:9px 12px;background:#198754" onclick="setStatus('+i+',\'Solved\')">✅ हल हुई</button>'+ 
+ '<button class="btn" style="padding:9px 12px;background:#6c757d" onclick="printComplaint('+i+')">🖨️ प्रिंट</button></div></div>';
+}
+function filterAdmin(){let q=(document.getElementById('adminSearch').value||'').toLowerCase();document.querySelectorAll('.admin-item').forEach(x=>x.style.display=x.dataset.search.includes(q)?'block':'none')}
+function printComplaint(i){let c=getData()[i],w=window.open('','_blank');w.document.write('<html lang="hi"><head><meta charset="utf-8"><title>'+c.id+'</title><style>body{font-family:Arial,sans-serif;padding:25px;line-height:1.7}h1{text-align:center}hr{border:0;border-top:1px solid #ccc}img{max-width:100%;max-height:450px}</style></head><body><h1>वार्ड शिकायत सेवा</h1><h2>शिकायत विवरण</h2><hr><b>शिकायत नंबर:</b> '+c.id+'<br><b>नाम:</b> '+c.name+'<br><b>मोबाइल:</b> '+c.phone+'<br><b>श्रेणी:</b> '+c.category+'<br><b>स्थान:</b> '+c.location+'<br><b>तारीख:</b> '+c.date+'<br><b>स्थिति:</b> '+c.status+'<hr><h3>समस्या का विवरण</h3><p>'+c.description+'</p>'+(c.photo?'<h3>समस्या की फोटो</h3><img src="'+c.photo+'">':'')+'<script>window.print()<\/script></body></html>');w.document.close()}
+function setStatus(i,s){let a=getData();a[i].status=s;saveData(a);renderAdmin()}
+</script>
+</body>
+</html>
